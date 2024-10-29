@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>PokeDex</h1>
+        <div>
+             <input type="text" id="pokemonName" placeholder="Digite o nome do Pokemon">
+             <button onclick="searchPokemon()">Buscar Pokemon</button>
+             <button onclick="randomPokemon()">Buscar pokemon Aleatorio</button>
+        </div>
+
+        <div class="pokemon-container" id="pokemonContainer">
+            <h2 id="pokemonNameDisplay"></h2>
+            <img id="pokemonImage" src="" alt="Imagem do Pokemon">
+            <p id="pokemonInfo"></p>
+        </div>
+
+    
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
